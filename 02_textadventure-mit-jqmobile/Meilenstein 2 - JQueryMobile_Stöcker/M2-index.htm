@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<meta charset="utf-8">
+		<meta name="author" content="Anna Stöcker">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="js/jquery.min.js"></script>
+		<script>
+			$(document).bind('mobileinit',function(){
+			$.mobile.changePage.defaults.changeHash = false;
+			$.mobile.hashListeningEnabled = false;
+			$.mobile.pushStateEnabled = false;
+			});
+		</script> 
+		<script src="js/jquery.mobile.min.js"></script>
+		<script src="css/themes/index.html"></script>
+		<link href="css/Meilenstein2.css" type="text/css" rel="stylesheet">
+		<link href="css/jquery.mobile.min.css" type="text/css" rel="stylesheet">
+		<link href="css/themes/ThemeColourMeilenstein2.css" rel="stylesheet">
+		<link href="css/themes/ThemeColourMeilenstein2.min.css" rel="stylesheet">
+
+
+		
+		
+	</head>
+	
+	<body>
+		
+		<script>
+			
+			$(document).ready(function() {
+			
+				// Testausgabe
+				//alert("Es funktioniert");
+				
+			});
+		
+		</script>
+		<div data-role="page" id="start">
+		
+			<div data-role="header">
+				<a href="#start" data-icon="home">Home</a><h1>Terry Pratchett</h1>
+			</div>
+			
+			<div data-role="content">
+				<h2>Sir Terry Pratchett</h2>
+				<img src="img/terry.png" height="250px">
+				<br>
+				Sir Terence David John Pratchett,(* 28. April 1948 in Beaconsfield, Buckinghamshire; † 12. März 2015 in Broad Chalke, Wiltshire) 
+				war ein britischer Fantasy-Schriftsteller. Seine bekanntesten Werke sind seine Scheibenwelt-Romane, die in 37 Sprachen übersetzt 
+				wurden. Weltweit wurden rund 85 Millionen seiner Bücher verkauft.
+				<br>
+				<br>
+				Er gehört zu meinen Lieblingsautoren und soll im Rahmen dieses JQuery Projektes vorgestellt werden. Im folgenden finden sie also, je nach 
+				Lust und Laune, Informationen über Terry Pratchett und sein Lebenswerk. <strong>Viel Spaß!</strong>
+				<br>
+				<br>
+				<hr>
+				Wenn Sie die Biografie des Terry Pratchett lesen möchten, geht's <a data-transition="fade" href="#bio">hier</a> lang!<br>
+				Wollen sie die Werke des Autors kennen lernen? Dann klicken Sie <a data-transition="fade" href="#books">hier!</a><br>
+			</div>
+			
+			<div data-role="footer">
+				<h4>&copy; Anna Stöcker</h4>
+			</div>
+		</div>
+
+	
+		
+		</div>
+		
+		<div data-role="page" id="bio">
+		
+			<div data-role="header">
+				<a href="#start" data-icon="home">Home</a><h1>Terry Pratchett</h1>
+			</div>
+			
+			<div data-role="content">
+				<p>
+				<strong>Sir Terence David John Pratchett</strong> wurde am 28. April 1948 in Beaconsfield, Buckinghamshire geboren.<br><br>
+				Er veröffentlichte sein erstes Werk mit 13 Jahren. Es war die Kurzgeschichte The Hades Business, die 
+				erst in der Schülerzeitung und später im Science Fantasy Magazine veröffentlicht wurde. Nachdem er 1965 von der Schule 
+				abgegangen war, begann Pratchett im selben Jahr eine Ausbildung zum Journalisten bei einer Lokalzeitung. Während 
+				seiner Tätigkeit als Journalist erwähnte er bei einem Interview mit Peter Bander van Duren, einem Leiter eines kleinen 
+				Verlages, dass er ebenfalls einen Roman geschrieben habe: Die Teppichvölker. Dieser wurde dann 1971 veröffentlicht.
+				<br><img src="img/terry.png" height="300px"><br>
+				Pratchett war seit 1968 mit Lyn Marian Purves verheiratet; ihre Tochter Rhianna (* 1976) ist ebenfalls als Autorin tätig. 
+				<br> 1980 wurde Pratchett Pressesprecher 
+				des Central Electricity Generating Board (CEGB). Das CEGB war ein staatlicher Betrieb in Großbritannien, der die Aufteilung 
+				der Stromproduktion auf verschiedene Erzeugungsmethoden regelte. Als klar wurde, dass er von seinen Büchern leben 
+				konnte, beendete Pratchett 1987 seine Arbeit beim CEGB und veröffentlichte ab dann etwa zwei Romane pro Jahr. 2003 
+				war er nach Joanne K. Rowling der erfolgreichste Autor Großbritanniens.
+				<br><br> Im Dezember 2007 gab Pratchett bekannt, dass bei ihm eine sehr seltene, früh beginnende Form der 
+				Alzheimer-Krankheit diagnostiziert worden war.<br>
+				Über die Krankheit sprach Pratchett am 13. März 2008 in einem Interview in der BBC-Radio-Sendung Today Programme. 
+				Nach eigener Aussage hat er seinen Führerschein abgegeben und Schwierigkeiten beim Maschinenschreiben, weshalb er 
+				seine Texte seitdem mit Hilfe einer Spracherkennungssoftware verfasste. <br> Pratchett spendete eine Million Dollar an 
+				den Alzheimer Research Trust und kritisierte, dass für die Erforschung von Demenzerkrankungen zu wenige Mittel 
+				bereitgestellt werden. „Ich würde den Hintern eines toten Maulwurfs essen, wenn mir damit geholfen wäre“, sagte er.
+				<br>In diesem Zusammenhang sprach er sich auch für Sterbehilfe aus. <br>
+				Pratchett führte eine Kampagne gegen das Verbot der Sterbehilfe in Großbritannien. 
+				<br>Er hat einen BBC-Dokumentarfilm produziert, in dem er zwei Menschen zum Freitod 
+				in die Schweiz begleitet. Neil Gaiman erzählte während eines Vortrages, dass Pratchett in seinem Tresor Pillen 
+				für einen Selbstmord gelagert hatte, sodass er im Zweifelsfall selbst hätte entscheiden können, wann er sterben würde. 
+				<br> 1998 wurde Pratchett zum Officer des Order of the British Empire (OBE) ernannt. 
+				<br>Am 31. Dezember 2008 wurde er für seine Verdienste 
+				um die Literatur von der Queen zum Knight Bachelor ernannt und durfte sich seitdem Sir Terry Pratchett nennen.
+				Am 28. April 2010 wurde ihm vom Clarenceux King of Arms ein eigenes Wappen verliehen. Dieses führt unter anderem 
+				ein Ankh und eine Morpork-Eule, welche aus dem Wappen der von ihm erdachten Stadt Ankh-Morpork, dem Schauplatz vieler 
+				seiner Werke, entnommen sind, und das Motto „Noli timere Messorem“ („Fürchte den Sensenmann nicht“, eine 
+				Anspielung auf das Lied (Don’t Fear) The Reaper von Blue Öyster Cult und auf die sympathische Art der Figur „Tod“, 
+				der in vielen Scheibenweltromanen eine tragende Rolle spielt). 
+				<br><br>2008 erhielt er den Locus Award, 2011 den Karl Edward Wagner Special Award. 
+				<br>2011 erhielt er auch den Margaret A. Edwards Award der American Library Association 
+				für großen Verdienste in der Jugendliteratur.
+				<br><br>Pratchett starb am 12. März 2015 im Alter von 66 Jahren 
+				in seinem Zuhause, einem Anwesen in Broad Chalke in der Grafschaft Wiltshire, an den Folgen einer posterioren 
+				kortikalen Atrophie (PKA, auch Benson-Syndrom), einer der Alzheimer-Erkrankung sehr ähnlichen neurodegenerativen Pathologie. 
+				<br><br>Einer seiner Fans reagierte auf die Todesnachricht mit einer Petition bei Change.org mit der Forderung, der Tod 
+				möge Terry Pratchett zurückgeben. Binnen zweier Tage wurde sie von über 25000 Fans unterzeichnet. Betreiber 
+				verschiedener Internet-Server fügen zum Gedenken an Pratchett – und in Anlehnung an eine in Ab die Post dargestellte 
+				Form des Gedenkens – zusätzliche Header-Zeilen in die ausgehenden Daten ihrer Server ein.
+				</p>
+				<br>
+				<hr>
+				Die lustigsten Zitate aus Pratchetts Werken können Sie <a data-transition="fade" href="#quotes">hier</a> finden!<br>
+				Oder wollen Sie lieber die Filme zu den Scheibenweltromanen kennen lernen? <a data-transition="fade" href="#film">Ja!</a>
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Anna Stöcker</h4>
+			</div>
+			
+		</div>
+		
+		<div data-role="page" id="books">
+		
+			<div data-role="header">
+				<a href="#start" data-icon="home">Home</a><h1>Terry Pratchett</h1>
+			</div>
+			
+			<div data-role="content">
+				<h3>Einige Werke von Terry Pratchett</h3>
+				
+				<h4>Shaking Hands With Death</h4>
+				<img src="img/shaking_hands_with_death.png" height="200px">
+					<p>Why we all deserve a life worth living and a death worth dying for…<br>
+					‘Most men don’t fear death. They fear those things – the knife, the shipwreck, the illness, 
+					the bomb – which precede, by microseconds if you’re lucky, and many years if you’re not, the moment of death.’<br>
+					When Terry Pratchett was diagnosed with Alzheimer’s in his fifties he was angry – not with death but with 
+					the disease that would take him there, and with the suffering disease can cause when we are not allowed to put an end to it.<br>
+					In this essay, broadcast to millions as the BBC Richard Dimblebly Lecture 2010 and previously only available as part 
+					of A Slip of the Keyboard, he argues for our right to choose – our right to a good life, and a good death too.</p>
+				<br><br>
+				<br><br>
+				<h4>Good Omens (mit Neil Gaiman)</h4>
+				<img src="img/good_omens.jpg" height="200px">
+					<p>“Armageddon only happens once, you know. They don’t let you go around again until you get it right.’<br>
+					People have been predicting the end of the world almost from its very beginning, so it’s only natural 
+					to be sceptical when a new date is set for Judgement Day. But what if, for once, the predictions are right, 
+					and the apocalypse really is due to arrive next Saturday, just after tea? You could spend the time left 
+					drowning your sorrows, giving away all your possessions in preparation for the rapture, or laughing it 
+					off as (hopefully) just another hoax.<br><br>Or you could just try to do something about it.”</p>
+				<br><br>
+				<br><br>
+				<h4>Dodger’s Guide to London</h4>
+				<img src="img/dodgers_guide_to_London.jpg" height="200px">
+				<p>“ROLL UP! ROLL UP! READ ALL ABOUT IT!
+				<br>Ladies and Gents, Sir Jack Dodger brings you a most excellent Guide to London!
+				<br>Did you know . . . ?
+				<br>If a Victorian couldn’t afford a sweep, they might drop a goose down their chimney to clean it!
+				<br>A nobby lady’s unmentionables could weigh up to 40lbs!
+				<br>Parliament had to be suspended during the Great Stink of 1858!
+				<br>From the wretches of the rookeries to the fancy coves at Buckingham Palace, Dodger will show you every dirty inch of London.
+				<br>Warning: Includes ‘orrible murders, naughty ladies and plenty of geezers!”</p>
+				<br><br>
+				<br><br>
+				<h4>The Colour of Magic</h4>
+				<img src="img/the_colour_of_magic.jpg" height="200px">
+					<p>“Twoflower was a tourist, the first ever seen on the Discworld. Tourist, Rincewind decided, meant idiot.<br><br>
+					Somewhere on the frontier between thought and reality exists the Discworld, a parallel time and place which 
+					might sound and smell very much like our own, but which looks completely different. It plays by different rules. 
+					Certainly it refuses to succumb to the quaint notion that universes are ruled by pure logic and the harmony of numbers.
+					<br><br>But just because the Disc is different doesn’t mean that some things don’t stay the same. 
+					Its very existence is about to be threatened by a strange new blight: the arrival of the first tourist, upon w
+					hose survival rests the peace and prosperity of the land. But if the person charged with maintaining that survival 
+					in the face of robbers, mercenaries and, well, Death is a spectacularly inept wizard, a little logic might turn out 
+					to be a very good idea…”</p>
+				<br><br>
+				<br><br>
+				<h4>Mort</h4>
+				<img src="img/mort.jpg" height="200px">
+					<p>“Although the scythe isn’t pre-eminent among the weapons of war, anyone who has been on the wrong end of, say, a 
+					peasants’ revolt will know that in skilled hands it is fearsome.<br>
+					For Mort however, it is about to become one of the tools of his trade. <br>
+					From henceforth, Death is no longer going to be the end, merely the means to an end. 
+					He has received an offer he can’t refuse. As Death’s apprentice he’ll have free board, use 
+					of the company horse and being dead isn’t compulsory. It’s the dream job until he discovers 
+					that it can be a killer on his love life…”</p>
+				<br><br>
+				<br><br>
+				<br><br>
+				<hr>
+				Leseprobe gefällig?
+				<a data-transition="fade" href="#mort">Hier</a> gibt es die deutsche Ausgabe zu "Mort".<br>
+				<a data-transition="fade" href="#film">Hier</a> können Sie die Filme zur Diskwoldseries erkunden!
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Anna Stöcker</h4>
+			</div>
+		
+		</div>
+	
+			
+		<div data-role="page" id="quotes">
+		
+			<div data-role="header">
+				<a href="#start" data-icon="home">Home</a><h1>Terry Pratchett</h1>
+			</div>
+			
+			<div data-role="content">
+				<h3>Die besten Zitate von Terry Pratchett</h3>
+				<ul>
+				<li>"It would seem that you have no useful skill or talent whatsoever," he said. "Have you thought of going into teaching?" - <strong>Mort</strong></li>
+				<br>
+				<li>“The trouble with having an open mind, of course, is that people will insist on coming along and 
+					trying to put things in it.” - <strong>Diggers</strong></li>
+				<br>
+				<li>“I believe it's very hard to have fun in Iceland without fish being involved in some way.” - <strong>Johnny and the Dead</strong></li>
+				<br>
+				<li>“No one can out-stare a witch, ’cept a goat, of course.” - <strong>Wyrd Sisters</strong></li>
+				<br>
+				<li>““It’s going to look pretty good, then, isn’t it,” said War 
+					testily, “the One Horseman and Three Pedestrians of the Apocralypse.”” - <strong>Sourcery</strong></li>
+				<br>
+				<li>“Meat pies! Hot sausages! Inna bun! So fresh the 
+					pig hasn’t noticed they’re gone!” - <strong>Moving Pictures</strong></li>
+				<br>
+				<li>“In the bathtub of history the truth is harder to 
+					hold than the soap, and much more difficult to find...”</li>
+				<br>
+				<li>“William wondered why he always disliked people who said ‘no offence meant’. 
+				Maybe it was because they found it easier to say ‘no offence meant’ than actually refrain 
+				from giving offence.” - <strong>The Truth</strong></li>
+				<br>
+				<li>“Ptraci didn’t just derail the train of thought, she ripped up the rails, burned 
+				the stations and melted the bridges for scrap.” - <strong>Pyramids</strong></li>
+				<br>
+				<li>“Rincewind was to magic what a bicycle is to a bumblebee.” - <strong>The Color of Magic</strong></li>
+				<br>
+				<li>“Bandits and governments 'ave so much in common that they might be interchangeable anywhere in the world...” - <strong>Raising Steam</strong></li>
+				<br>
+				<li>“People have believed for hundreds of years that newts in a well mean that the water’s fresh and 
+				drinkable, and in all that time never asked themselves whether the newts got out to 
+				go to the lavatory.” - <strong>Reaper Man</strong></li>
+				</ul>
+				<br>
+				<hr>
+				Leseprobe gefällig?
+				<a data-transition="fade" href="#mort">Hier</a> gibt es die deutsche Ausgabe von "Mort" zu lesen.<br>
+				Ansonsten gibt es <a data-transition="fade" href="#books">hier</a> ein paar der Romane von Pratchett.
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Anna Stöcker</h4>
+			</div>
+		
+		</div>
+		
+		<div data-role="page" id="mort">
+		
+			<div data-role="header">
+				<a href="#start" data-icon="home">Home</a><h1>Terry Pratchett</h1>
+			</div>
+			
+			<div data-role="content">
+				<h3>Mort</h3>
+				<p>
+				Gevatter Tod (Englischer Titel: Mort) ist ein Roman von Terry Pratchett und wurde 1987 veröffentlicht.
+				Es ist der vierte Scheibenwelt-Roman und der erste der den Focus auf Tod als wichtigstem Protagonisten setzt. 
+				Der Titel des Originals Mort ist auch der Name der Hauptfigur und zugleich ein 
+				Wortspiel mit dem französischen „mort“, was „Tod“ heißt. 
+				Der Tod als anthropomorphe Manifestation, interessiert sich für alles Menschliche und nimmt für seine Studien einen Lehrling auf: Mort.
+				</p>
+				<p>
+				Mort ist ein extremer Tollpatsch. 
+				Kein anderer Handwerksmeister will ihn ausbilden. <br>
+				Tod setzt andere Prioritäten. Er lehrt ihn sein „Handwerk“ und Mort macht seine Sache anfangs durchaus gut. <br>
+				So gut, dass Tod die Vorteile, einen formidablen Stellvertreter zu haben, dazu nutzt seine Humanstudien voranzutreiben, um 
+				<br>beispielsweise das Vergnügen des Trockenfliegen-Angelns zu erleben.
+				</p>
+				<br><br><img src="img/mort.jpg" height="400px"><br><br>
+				<h3>Mort und der Gewerbemarkt</h3>
+				<p>Der Gewerbemarkt schien auf folgende Weise zu funktionieren:
+				Die nach Arbeit suchenden Männer warteten auf der Mitte des Platzes und bildeten eine lange Reihe. Die meisten von Ihnen hatten
+				Zeichen an den Hüten befestigt, um dem Rest der Welt ihren Beruf mitzuteilen. Schäfer trugen Wollstreifen, Fuhrleute einen 
+				Büschel aus Pferdehaar, Innenausstatter kleine Fetzen interessanter Sackleinentapeten. Und so weiter und so fort.
+				<br>
+				Wer sich einen Ausbildungsplatz erhoffte, stand auf der mittwärtigen Seite des Platzes.<br><br>
+				"Gesell dich einfach zu den Anderen!" sagte Lezek und fügte unsicher hinzu: "Dann kommt jemand und bietet dir eine Lehrlingstelle an. 
+				Wenn du einen Guten Eindruck machst. Wenn du den Leuten gefällst. Wenn..." Er war plötzlich ziemlich sicher, dass er mit 
+				seinem Sohn nach Hause zurückkehren musste.<br>
+				"Und <i>wenn</i> jemand an mich heran tritt?", fragte Mort. "Was passiert dann?"<br>
+				"Nun...", begann Lezek und brach ab. Über diesen Punkt hatte Hamesh geschwiegen. Er besann sich auf sein beschränktes Wissen über 
+				Märkte, das vor allen Dingen den Verkauf von Vieh betraf. "Ich nehme an man, zählt deine Zähne und so. Wahrscheinlich wollen sich
+				die Interessenten vergewissern, dass du nicht niest und deine Füße in Ordnung sind. An deiner Stelle würde ich nicht darauf 
+				hinweisen, dass du lesen kannst. Damit könntest du eventuelle Lehrmeister beunruhigen."<<br>
+				"Und dann?"<br>
+				"Dann begleitest du deinen neuen Herrn und lernst ein Gewerbe", sagte Lezek.<br>
+				"Was für eins?"<br>
+				"Nun... das Zimmerhandwerk ist nicht übel.", erwiederte Lezek vorsichtig. "Oder die Diebeskunst. Sie gilt durchaus als Ehrenhaft.
+				Glaube ich jedenfalls. Ich meine, es muss Leute geben, die stehlen. Sonst wäre das Leben viel zu langweilig."<br><br>
+				Mort starrte zu Boden. Er war ein pflichtbewusster Sohn, wenn er sich an die Tugend des Gehorsams erinnerte, was 
+				nicht allzu häufig geschah. Wenn Vater und Schicksal von Ihm erwarteten eine Ausbildung zu beginnen, wollte er 
+				wenigstens ein guter Lehrling sein. Das Zimmerhandwerk erschien im allerdings wenig geeignet - Holz konnte
+				ziemlich stur sein und neigte dazu, ein beharrliches Eigenleben zu entwickeln. Außerdem splitterte es leicht. 
+				Und was die Kunst des Klauens, Stehlens und Entwendens betraf: die meisten Bewohner der Spitzhornberge waren so arm, dass 
+				sie sich keinen offiziellen Dieb leisten konnten.<br>
+				"Na schön", sagte Mort schließlich. "Ich versuch's. Aber was machen wir, wenn mich niemand will?"<br>
+				Lezek kratzte sich am Kopf. <br>
+				"Keine Ahnung", entgegnete er. "Ich schlage vor, wir warten bis zum Ende des Marktes. Bis heute Abend. Besser 
+				noch: Bis um Mitternacht."<p>
+				<p>
+				<p>
+				</p>
+				<br>
+				<br>
+				<br>
+				<hr>
+				Weiter lesen? <a data-transition="fade" href="#vatter">Gevatter Tod</a>
+				<br>
+				Zu den Filmen von Terry geht's <a data-transition="fade" href="#film">hier</a>
+				<br>
+				
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Anna Stöcker</h4>
+			</div>
+		</div>
+		
+		<div data-role="page" id="film">
+		
+			<div data-role="header">
+				<a href="#start" data-icon="home">Home</a><h1>Terry Pratchett</h1>
+			</div>
+			
+			<div data-role="content">
+				<h2>Verfilmungen der Pratchett-Romane</h2>
+				<ul>
+					<br><br>
+					<li><h3>Hogfather - Schaurige Weihnachten</h3>
+					<img src="img/hogfather.png" height="200px">	
+						<p>Erschienen 2007 - Mit David Jason, Marc Warren und Michelle Dockery. <br><br>
+						Handlung: Während der Tod mit mehr oder weniger Erfolg versucht, das Schneefest mit Leben zu füllen, kommt 
+						Susan einer Verschwörung ungeahnten Ausmaßes auf die Spur. Die Revisoren der Wirklichkeit, humorlose 
+						Verkörperungen der Naturgesetze, wollen den Schneevater in den Ruhestand schicken, um das zu vernichten, 
+						was ihrer Herrschaft über das Universum noch im Wege steht: den menschlichen Glauben. Nur Susan und eine 
+						Truppe trotteliger Zauberer scheinen das noch verhindern zu können.</p>
+					</li>
+					<br><br><br><br>
+					<li><h3>The Color of Magic - Die Reise des Zauberers</h3>
+					<img src="img/color_of_magic_film.PNG" height="200px">
+						<p>Dieser Film entstand 2008 auf Basis der beiden Scheibenwelt-Romane "Die Farben der Magie" und "Das Licht der Phantasie".
+						Mit David Jason, Sean Astin, Tim Curry.<br><br>
+						Handlung: Ein Herr namens Zweiblum besichtigt als erster Tourist der Scheibenwelt das von Drachen, Hexen 
+						und anderen Wesen wimmelnde Reich von Ankh-Morpork und gerät, stets begleitet von einer wandelnden Truhe 
+						voller Goldstücke, mitten hinein in eine schwerwiegende Auseinandersetzung der dort regierenden Zauberergilde.
+						Nachdem der Zauberer Rincewind unfreiwillig Führer für den naiven Zweiblum wurde, sehen 
+						sie beide gezwungen, aus der Stadt Ankh-Morpork zu fliehen, um einem schrecklichen Feuer zu entkommen. 
+						Es beginnt eine Reise über die gesamte Scheibenwelt. Ihre Reise & Schicksal werden dabei die ganze Zeit von den Göttern 
+						gelenkt, die mit ihnen ein Brettspiel spielen.</p>
+					</li>
+					<br><br><br><br>
+					<li><h3>Going Postal - Ab die Post!</h3>
+					<img src="img/postal.png" height="200px">
+						<p>Erschienen 2010 - Mit Richard Coyle, David Suchet und Claire Foy.<br><br> 
+						Eigentlich sollte der gewiefte Trickbetrüger Feucht von Lipwig hingerichtet werden. 
+						Doch kurz vor der Vollstreckung scheint das Blatt sich plötzlich zu wenden. 
+						Auf Befehl des Herrschers von Ankh-Morpork, Lord Vetinari, soll der clevere Gauner 
+						überraschend das Amt des Postmeisters übernehmen. Um seinen Hals aus der Schlinge zu ziehen, nimmt 
+						Feucht den Auftrag an und entpuppt sich schnell als Idealbesetzung für einen Job, der 
+						Improvisationstalent genauso erfordert wie Mut und Tapferkeit. Allerdings gibt es einige 
+						im Land, denen die Erneuerung der völlig maroden Post ein Dorn im Auge ist. Allen voran 
+						Reacher Gilt, der das Monopol der Semaphorgesellschaft auf die Nachrichtenübermittlung 
+						mit dieser Neubesetzung stark gefährdet sieht. Es entbrennt ein erbitterter Kampf zwischen 
+						Postkutschen, Klackertürmen und jeder Menge obskurer Gestalten und Magier, die immer tiefer 
+						in einen Strudel aus Intrigen hineingezogen werden …
+						</p></li>
+					
+				</ul>
+
+				</p><br><br><hr>
+				Die Bücher zur Diskworldseries finden Sie auf der offziellen Homepage 
+				von <a data-transition="fade" href="http://www.terrypratchettbooks.com/" target="_blank">Terry Pratchett</a>.
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Anna Stöcker</h4>
+			</div>
+		
+		</div>
+		
+	
+
+		<div data-role="page" id="vatter">
+		
+			<div data-role="header">
+				<a href="#start" data-icon="home">Home</a><h1>Gevatter Tod</h1>
+			</div>
+			
+			<div data-role="content">
+				<h3>Abschnitt 2: Gevatter Tod</h3><br>
+				<p>Und Mitternacht rückte rasch näher.<br>
+					Raureif bildete eine dünne glitzernde Schicht auf dem Kopfsteinpflaster. Oben im dekorativen 
+					Uhrturm öffneten sich kleine Klappen, und winzige Gestalten aus verwittertem Holz und rostigem Eisen krochen hervor, 
+					als Ketten rasselten, Zahnräder knirschten und der Gong ertönte. <br>
+					Noch fünfzehn Minuten. Mort fröstelte, und tief in ihm brannte ein Feuer aus Scham und verzweifelter Hartnäckigkeit, 
+					heißer als die Flammen der Hölle. Er blies in die hohlen Hände um sich irgendwie zu beschäftigen, blickte zum kalten 
+					Himmel hoch und versuchte die Blicke der wenigen nachzügler zu übersehen. <br>
+					Die meisten Budenbesitzer hatten bereits ihre Sachen gepackt und den Platz verlassen.
+					Selbst der dicke Mann mit den Pasteten pries seine Waren nicht mehr an und biss herzhaft in einen mit hackfleisch gefüllten Teig, 
+					ungeachtet der Gefahren, die er damit für seine Gesundheit herauf beschwor.<br>
+					Die letzten jungen Männer waren schon vor Stunden mit den erhofften Lehrverträgen in der Tasche gegangen. Zurück blieb Mort,
+					ein glubschäugiger Bursche mit krummem Rücken und laufender Nase. Der einzige konzessionierte Bettler in Schafrücken glaubte, 
+					eine gewissen natürliche Begabung in ihm zu erkennen. Dem Jungen der links von Mort gewartet hatte, stand eine Ausbildung 
+					zum Spielzeugmacher bevor, und die anderen wurden bald zu Steinmetzen, Hufschmieden, Meuchelmördern, Krämern, Böttchern, Betrügern 
+					und Pflügern. In einigen Minuten begann das neue Jahr, und hundert Lehrlinge freuten sich auf ihren neuen Beruf, konnten zufrieden 
+					in die Zukunft sehen. <br> Mort fragte sich, warum ihm niemand ein Angebot unterbreitete. Den ganzen Abend hatte er versucht, 
+					möglichst würdevoll auszusehen. Er hatte interessierten Ausbildungsherren fest in die Augen geblickt, um sie mit seinem exzellenten Wesen 
+					zu beeindrucken und auf außerordentlich positive Charaktereigenschaften hinzuweisen. Doch aus irgendeinem Grund erzielte er nicht die 
+					erhoffte Wirkung. <br><br>
+					"Möchtest du eine Fleischpastete?", fragte sein Vater.<br>
+					"Nein" <br>
+					"Oh." <br>
+					Lezek zögerte. <br>
+					"Ich könnte Ihn fragen, ob er einen Lehrling braucht", schlug er vor. "Ein seriöses Gewerbe, die Gastronomie." <br>
+					"Ich glaube, er benötigt keine Hilfe", sagte Mort. <br>
+					"Ja, wahrscheinlich hast du Recht", antwortete Lezek. "Eine Art Ein-Mann-Betrieb, nehme ich an. 
+					Außerdem geht er gerade heim. Was hälst du davon, wenn wir uns eine Pastete teilen?" <br>
+					"Ich habe überhaupt keinen Hunger, Paps." <br>
+					"Das Fleisch enthält nur wenige Knorpel. Fast gar keine." <br>
+					"Nein. Trotzdem vielen Dank." <br>
+					"Oh." Lezek seufzte, stampfte mit den Füßen, um die Kälte zu vertreiben und Pfiff leise vor sich hin. Er wollte irgendetwas sagen, seinem 
+					Sohn Mut zusprechen, ihm einen Rat geben, darauf hinweisen, das Leben sei ein Auf und Ab. Er wollte den Arm um Morts Schultern legen, ihm 
+					die Probleme des Erwachsenwerdens erläutern, ihm mit einigen knappen Worten erklären, in der Welt gehe es meist recht komisch zu, 
+					und man dürfe, bildlich gesprochen, nie zu stolz sein, eine wenigstens einigermaßen genießbare Fleischpastete anzunehmen. <br>
+					Stattdessen schwieg er und dachte voller Grauen daran, was aus seinem Bauerhof werden sollte, wenn Mort den Anbau reannueller Pflanzen 
+					lernen musste. <br>
+					Inzwischen waren sie allein. Auf den Kopfsteinen wuchs der Raureif, der letzte dieses Jahres. <br><br>
+					Hoch oben im Turm machte ein Zahnrad deutlich <i>Knirsch</i> und löste einen Hebel aus, der wiederum einen Sperrbolzen beiseite schob 
+					und ein Bleigewicht herabfallen ließ. Ein geradezu beängstigend klingendes Rasseln erklang, gefolgt von einem metallenen Schnaufen und Keuchen. 
+					Die kleinen Klappen öffneten sich, und erneut krochen die Uhr-Zwerge unter dem großen Zifferblatt hervor. Mit steifer mechanischer Fröhlichkeit, 
+					als litten sie an robotischer Athritis, schwangen sie ihre Hämmer, und das laute Hallen des Gongs kündigte ein neues Jahr an. <br>
+					"Das wär's", sagte Lezek hoffnungsvoll. Sie mussten nun eine Unterkunft finden: Niemand der noch alle seine Sinne beisammen hatte, kraxelte 
+					während der Neujahrsnacht in den Spitzhornbergen herum. Irgendein warmer Stall... <br>
+					"Erst beim letzten Schlag ist es Mitternacht", stellte Mort sachlich fest. <br>
+					Lezek hob die Schultern und beugte sich den Starrsinn seines Sohnes. <br>
+					"Meinetwegen", brummte er. "Warten wir noch einige Sekunden" <br><br>
+					Er hatte die Worte geraden ausgesprochen, als er das <i>Klippklapp</i> von Hufen hörte, und es hallte weitaus lauter 
+					über den Platz, als normale Akustik erlauben sollte. Eigentlich wurde der Ausdruck <i>Klippklapp</i> dem unheilvollen Pochen überhaupt nicht gerecht. 
+					Gewöhnliches <i>Klippklapp</i> deutete auf ein lebhaftes kleines Pony hin, das vielleicht einen Strohhut trug, mit zwei Löchern für die Ohren. 
+					<i>Dieses Klippklapp</i> hingegen ließ keinen Zweifel daran, dass niemand mit irgendwelchen Strohhüten rechnen durfte. <br>
+					Das Pferd erreichte den Platz von der mittwärtigen Straße her. <br> Dampf wallte von den schweißfeuchten weißen Flanken, un Funken stoben 
+					vom Kopfsteinpflaster unter den Hufen. Es bewegte sich mit der anmutigen stolzen Eleganz eines edlen Rosses, und es trug
+					<i>keinen</i> Strohhut. <br>
+					Die hochgewachsene Gestalt auf seinem Rücken war in einen dunklen Umhang gehüllt. Als das Pferd die Mitte des Platzes erreicht hatte, 
+					stieg der Reiter langsam ab und tastete nach einem Gegenstand hinter dem Sattel. Schließlich fand er - oder sie - einen Futtersack, streifte 
+					den Riemen über die Ohren des Pferdes und klopfte ihm freundlich auf den Hals. <br>
+					Die Luft gewann plötzlich schmierige, ölige Qualität, und die Schatten vor Mort wurden dichter, verwandelten sich in Regenboden, deren Farben 
+					auf Dunkelblau und Violett beschränkt blieben. Der Reiter schritt mit wehendem Mantel auf ihn zu, und seine - ihre? - Füße
+					klickten und klackten auf dem Pflaster. Abgesehen davon ertönte nicht das geringste Geräusch. Eine sonderbare, gespenstische Stille glitt heran, 
+					als die Akustik floh und sich irgendwo verbarg. <br>
+					Dünnes glattes Eis ruinierte den höchst dramatischen Effekt. <br>
+					<br>VERDAMMTER MIST!<br><br>
+					Es war keine Stimme im eigentlichen Sinn. An den Worten gab es nichts auszusetzen, aber sie erklangen in Morts Kopf, ohne sich mit einem 
+					Umweg über seine Ohren aufzuhalten. <br>
+					Er lief los, um der ausgerutschten Gestalt auf die Beine zu helfen, ergriff eine Hand, die nur aus blanken Knochen bestand, so glatt und 
+					vergilbt wie eine Billardkugel. Die Kapuze fiel zurück, und darunter kam ein nackter Schädel zum Vorschein. Der Blick leerer 
+					Augenhöhlen richtete sich auf den Jungen. <br>
+					Ganz leer waren sie nicht. Sie ähnelten Fenstern, die einen Ausblick in die Weiten des Alls gestatteten, und tief in Ihnen glühten zwei kleine 
+					blaue Sterne. <br>
+					Mort dachte daran, dass er entsetzt sein sollte, und deshalb überraschte ihn die unerklärliche Ruhe in seinem Innern. 
+					Vor ihm saß ein Skelett, rieb sich die Knie und brummte leise, aber es war ein <i>lebendes</i> Skelett, das zwar beeindruckend wirkte, 
+					ihm jedoch (so seltsam das auch sein mochte) keine Angst machte. <br><br>
+					DANKE JUNGE, sagte der Totenkopf. WIE HEISST DU? <br>
+					"Äh", erwiederte Mort. "Mortimer - Herr. Man nennt mich Mort." <br>
+					WELCH INTERESSANTER ZUFALL! Sprach der Knochenmann. <br>
+					MORT. DER NAMEN HAT EINEN ANGEMESSENEN GRABESKLANG. BITE HILF MIR HOCH. <br>
+					Die Gestalt stand ungelenk auf und strich mit einer fahrigen Geste des Umhang glatt. Mort sah einen breiten Gürtel an der Taille des 
+					Skeletts, und daran hing ein Schwert mit einem weißen Heft. <br>
+					"Ich hoffe du bist nicht verletzt, Herr", sagte er höflich. <br>
+					Der Totenschädel grinste - in dieser Hinsicht blieb ihm kaum eine Wahl. <br>
+					MACH DIR KEINE SORGEN UM MICH. Erst jetzt schien der Knochenmann Lezek zu bemerken, der wie erstarrt stand. Der Blick - fast - leerer Augenhöhlen 
+					richtete sich auf ihn, und Mortimer hielt eine Erklärung für angebracht. <br>
+					"Mein Vater", sagte er und versuchte, möglichst unauffällig vor den reglosen zu treten. "Entschuldige bitte, Herr... Bist du der Tod?" <br>
+					IN DER TAT. DU HAST EINE AUSGEZEICHNETE BEOBACHTUNGSGABE, JUNGE.<br>
+					Mort schluckte. <br>
+					"Mein Vater ist ein gutherziger Mann", sagte er. Nach einigen nachdenklichen Sekunden fügte er hinzu: "Meistens jedenfalls. Wenn's dir 
+					nichts ausmacht... Ich wäre dir sehr dankbar, wenn du ihn verschonen könntest. Äh ich weiß nicht, was du mit ihm angestellt hast, aber vielleicht 
+					bist du so nett, damit auszuhören. Womit ich dir keineswegs zu nahe treten möchte, Herr." <br>
+					Tod wich einen Schritt zurück und neigte den Kopf zur Seite. <br><br>
+					ICH HABE FÜR UNS BEIDE NUR DIE ZEIT ANGEHALTEN, sagte er. DEIN VATER WIRD NICHTS SEHEN ODER HÖREN, DAS IHN VERWIRRT. NEIN, JUNGE. 
+					ICH BIN DEINETWEGEN GEKOMMEN. <br>
+				</p>
+				<br><br><br>
+				<hr>
+				Lesen Sie weiterhin die besten <a data-transition="fade" href="#quotes">Zitate</a> aus Pratchetts Romanen. <br>
+				Die weiteren Bücher zur Diskworldseries finden Sie auf der offziellen Homepage 
+				von <a data-transition="fade" href="http://www.terrypratchettbooks.com/" target="_blank">Terry Pratchett</a>.
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Anna Stöcker</h4>
+			</div>
+		
+		</div>
+
+		
+
+		
+	</body>
+</html> 
+
